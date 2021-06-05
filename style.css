@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  background-color: #1b5a86;
+  /* position: relative; */
+}
+
+.container {
+  width: 300px;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #120907;
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  text-align: center;
+  border-radius: 5%;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #2098d9;
+  padding: 14px 10px;
+  border-radius: 25px;
+  width: 150px;
+  outline: none;
+  color: white;
+  transition: 0.35s;
+  text-align: center;
+}
+
+.container input[type="text"]:focus,
+.container input[type="password"]:focus {
+  width: 200px;
+  border: 2px solid #20d2d8;
+}
+
+.container h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.container input[type="submit"] {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #20d2d8;
+  padding: 14px 10px;
+  border-radius: 25px;
+  width: 100px;
+  outline: none;
+  color: white;
+  transition: 0.35s;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.container input[type="submit"]:hover {
+  font-weight: bold;
+  background-color: #9fe66c;
+}
